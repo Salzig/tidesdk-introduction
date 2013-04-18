@@ -1,0 +1,65 @@
+/*
+Syntax error: Undefined mixin 'bodyBackground'.
+        on line 8 of stylesheet/theme/template/theme.scss, in `bodyBackground'
+        from line 8 of stylesheet/theme/template/theme.scss
+
+3: /*********************************************
+4:  * GLOBAL STYLES
+5:  *********************************************/
+6: 
+7: body {
+8: 	@include bodyBackground();
+9: 	background-color: $backgroundColor;
+10: }
+11: 
+12: .reveal {
+13: 	font-family: $mainFont;
+
+Backtrace:
+stylesheet/theme/template/theme.scss:8:in `bodyBackground'
+stylesheet/theme/template/theme.scss:8
+/Users/ben/.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/sass-3.2.7/lib/sass/tree/visitors/perform.rb:253:in `visit_mixin'
+/Users/ben/.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/sass-3.2.7/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/ben/.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/sass-3.2.7/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/Users/ben/.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/sass-3.2.7/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/Users/ben/.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/sass-3.2.7/lib/sass/tree/visitors/base.rb:53:in `map'
+/Users/ben/.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/sass-3.2.7/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/ben/.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/sass-3.2.7/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+/Users/ben/.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/sass-3.2.7/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+/Users/ben/.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/sass-3.2.7/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+/Users/ben/.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/sass-3.2.7/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/Users/ben/.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/sass-3.2.7/lib/sass/tree/visitors/perform.rb:320:in `visit_rule'
+/Users/ben/.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/sass-3.2.7/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/ben/.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/sass-3.2.7/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/Users/ben/.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/sass-3.2.7/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/Users/ben/.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/sass-3.2.7/lib/sass/tree/visitors/base.rb:53:in `map'
+/Users/ben/.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/sass-3.2.7/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/ben/.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/sass-3.2.7/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+/Users/ben/.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/sass-3.2.7/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+/Users/ben/.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/sass-3.2.7/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+/Users/ben/.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/sass-3.2.7/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/Users/ben/.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/sass-3.2.7/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
+/Users/ben/.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/sass-3.2.7/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/ben/.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/sass-3.2.7/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/Users/ben/.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/sass-3.2.7/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/Users/ben/.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/sass-3.2.7/lib/sass/tree/root_node.rb:20:in `render'
+/Users/ben/.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/sass-3.2.7/lib/sass/engine.rb:315:in `_render'
+/Users/ben/.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/sass-3.2.7/lib/sass/engine.rb:262:in `render'
+/Users/ben/.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/sass-3.2.7/lib/sass/plugin/compiler.rb:341:in `update_stylesheet'
+/Users/ben/.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/sass-3.2.7/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
+/Users/ben/.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/sass-3.2.7/lib/sass/plugin/compiler.rb:201:in `each'
+/Users/ben/.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/sass-3.2.7/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
+/Users/ben/.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/sass-3.2.7/lib/sass/plugin/compiler.rb:235:in `watch'
+/Users/ben/.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/sass-3.2.7/lib/sass/plugin.rb:107:in `method_missing'
+/Users/ben/.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/sass-3.2.7/lib/sass/exec.rb:445:in `watch_or_update'
+/Users/ben/.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/sass-3.2.7/lib/sass/exec.rb:307:in `process_result'
+/Users/ben/.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/sass-3.2.7/lib/sass/exec.rb:41:in `parse'
+/Users/ben/.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/sass-3.2.7/lib/sass/exec.rb:21:in `parse!'
+/Users/ben/.rbenv/versions/1.9.3-p125/lib/ruby/gems/1.9.1/gems/sass-3.2.7/bin/sass:9:in `<top (required)>'
+/Users/ben/.rbenv/versions/1.9.3-p125/bin/sass:23:in `load'
+/Users/ben/.rbenv/versions/1.9.3-p125/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Undefined mixin 'bodyBackground'.\A         on line 8 of stylesheet/theme/template/theme.scss, in `bodyBackground'\A         from line 8 of stylesheet/theme/template/theme.scss\A \A 3: /*********************************************\A 4:  * GLOBAL STYLES\A 5:  *********************************************/\A 6: \A 7: body {\A 8: 	@include bodyBackground();\A 9: 	background-color: $backgroundColor;\A 10: }\A 11: \A 12: .reveal {\A 13: 	font-family: $mainFont;"; }

@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Presentation about TideSDK to create Desktop Application. It self uses TideSDK and reveal.js">
+    <meta name="author" content="Ben Rexin">
+
+    <title>TideSDK – Presentation</title>
+
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="stylesheet/reveal.css" />
+
+    <!-- <link rel="stylesheet" href="stylesheet/theme/default.css" /> -->
+    <!-- <link rel="stylesheet" href="stylesheet/theme/moon.css" /> -->
+    <!-- <link rel="stylesheet" href="stylesheet/theme/sky.css" /> -->
+    <!-- <link rel="stylesheet" href="stylesheet/theme/solarized.css" /> -->
+    <link rel="stylesheet" href="stylesheet/theme/night.css" />
+    <!-- <link rel="stylesheet" href="stylesheet/theme/beige.css" /> -->
+
+    <link rel="stylesheet" href="stylesheet/print/paper.css" media="print" />
+    <link rel="stylesheet" href="stylesheet/print/pdf.css" media="print" />
+
+    <!-- <link rel="stylesheet" href="stylesheet/rainbow/all-hallows-eve.css" /> -->
+    <link rel="stylesheet" href="stylesheet/rainbow/blackboard.css" />
+    <!-- <link rel="stylesheet" href="stylesheet/rainbow/dreamweaver.css" /> -->
+    <!-- <link rel="stylesheet" href="stylesheet/rainbow/espresso-libre.css" /> -->
+    <!-- <link rel="stylesheet" href="stylesheet/rainbow/github.css" /> -->
+    <!-- <link rel="stylesheet" href="stylesheet/rainbow/obsidian.css" /> -->
+    <!-- <link rel="stylesheet" href="stylesheet/rainbow/pastie.css" /> -->
+    <!-- <link rel="stylesheet" href="stylesheet/rainbow/solarized-dark.css" /> -->
+    <!-- <link rel="stylesheet" href="stylesheet/rainbow/solarized-light.css" /> -->
+    <!-- <link rel="stylesheet" href="stylesheet/rainbow/sunburst.css" /> -->
+    <!-- <link rel="stylesheet" href="stylesheet/rainbow/tomorrow-night.css" /> -->
+    <!-- <link rel="stylesheet" href="stylesheet/rainbow/tricolore.css" /> -->
+    <!-- <link rel="stylesheet" href="stylesheet/rainbow/twilight.css" /> -->
+    <!-- <link rel="stylesheet" href="stylesheet/rainbow/zenburnesque.css" /> -->
+
+    <link rel="stylesheet" href="stylesheet/custom/base.css" />
+    <link rel="stylesheet" href="stylesheet/custom/logos.css" />
+  </head>
+  <body>
+    <section class="reveal">
+      <section class="slides">
+        <section data-transition="zoom">
+          <h1 class="tidesdk">TideSDK</h1>
+        </section>
+
+        <section data-transition="linear">
+          <h1 class="tidesdk">TideSDK</h1>
+          <p>was</p>
+          <p class="titanium">Appcelerator Titanium Desktop</p>
+          <p>for Desktop</p>
+        </section>
+
+        <section data-transition="linear">
+          <h1>Desktop Applications</h1>
+        </section>
+
+        <section data-transition="linear">
+          <section data-transition="linear">
+            <h1>Desktop Apps are Native</h1>
+          </section>
+          <section data-transition="linear">
+            <h1>Build With… </h1>
+            <p>C#, Java, C++, VB?</p>
+            <p>.NET? WPF? GTK? Swing?</p>
+          </section>
+          <section data-transition="linear">
+            <h1>All Desktop Apps?</h1>
+          </section>
+          <section data-transition="linear">
+            <h1>Spotify</h1>
+            <p class="fragment">Chromium</p>
+          </section>
+          <section data-transition="linear">
+            <h1>Firefox, Thunderbird</h1>
+            <p class="fragment">XULrunner since Sept. 2006</p>
+          </section>
+          <section data-transition="linear">
+            <h1>ICQ</h1>
+            <p class="fragment">Boxely since 2007</p>
+            <p class="fragment">InternetExplorer before 2007</p>
+          </section>
+
+          <section data-transition="linear" data-state="buzzwordbingo">
+            <h1>…</h1>
+            <p>Windows Widgets, MacOS Widgets, Gnome GJS, KDE Plasmoids, WebOS, Boot2Gecko, Chrome Webapps, ChromeOS Apps, Windows 8 Tiles, Windows 8 Store Apps, …</p>
+            <p class="fragment">… Games like Battlefield Play4Free and SimCity use web technologie</p>
+          </section>
+        </section>
+
+        <section data-transition="linear">
+          <section data-transition="linear"><h1>What is TideSDK?</h1></section>
+          <section data-transition="linear"><h1>Browser++</h1></section>
+          <section data-transition="linear"><h1>Webkit</h1></section>
+          <section data-transition="linear">
+            <h1>+ Python</h1>
+            <pre><code data-language="python">
+              def greet(person = 'world')
+                "greet person"
+                print "Hello, %s!" % person;
+
+              greet("HAW Hamburg");
+              </code></pre>
+          </section>
+          <section data-transition="linear">
+            <h1>+ PHP</h1>
+            <pre><code data-language="php">
+              function greet($person = 'world') {
+                echo 'Hello, ' . $person . '!';
+              }
+              greet("HAW Hamburg");
+            </code></pre>
+          </section>
+          <section data-transition="linear">
+            <h1>+ Ruby</h1>
+            <pre><code data-language="ruby">
+              def greet(person = 'world')
+                puts "Hello, #{person}!"
+              end
+              greet "HAW Hamburg"
+            </code></pre>
+          </section>
+          <section data-transition="linear">
+            <h1>+ Kroll</h1>
+            <p>Hello, world?</p>
+          </section>
+        </section>
+
+        <section data-transition="linear">
+          <section data-transition="linear"><h1>Kroll</h1></section>
+
+          <section data-transition="linear"><h1>libtide</h1></section>
+
+          <section data-transition="linear">
+            <h1>Microkernel</h1>
+            <p class="fragment">it's a bridge</p>
+          </section>
+
+          <section data-transition="linear">
+            <h1>Module API</h1>
+            <p>Module initialization</p>
+            <p class="fragment">can be written in any supported language</p>
+          </section>
+
+          <section data-transition="linear">
+            <h1>Binding API</h1>
+            <p>Value boxing/unboxing</p>
+            <q class="fragment">you can invoke a function from Ruby which might take a Python function as a reference and return a Javascript object.</q>
+          </section>
+        </section>
+
+        <section data-transition="linear">
+          <section data-transition="linear"><h1>TideSDK API</h1></section>
+
+          <section data-transition="linear">
+            <h1>Ti.*</h1>
+            <p>Analytics, API, App, Bytes, Codec, Database, Filesystem, JSON, Media, Network, Notification, Platform, Process, UI, UpdateManager, Worker</p>
+          </section>
+
+          <section data-transition="linear">
+            <h1>Ti.App</h1>
+            <ul>
+              <li>getArguments()</li>
+              <li>stderr(data)</li>
+              <li>stdin(prompt, delimiter)</li>
+              <li>stdout(data)</li>
+            </ul>
+          </section>
+
+          <section data-transition="linear">
+            <h1>Ti.Filesystem</h1>
+            <ul>
+              <li>open(as_binary, as_append)</li>
+              <li>read()</li>
+              <li>write(data)</li>
+            </ul>
+          </section>
+
+          <section data-transition="linear">
+            <h1>Ti.Network</h1>
+            <ul>
+              <li>createTCPSocket(host, port)</li>
+              <li>socket.connect()</li>
+              <li>socket.onRead()</li>
+              <li>socket.write()</li>
+            </ul>
+          </section>
+
+          <section data-transition="linear">
+            <h1>Ti.Notification</h1>
+            <pre><code data-language="javascript">
+              var notification = Ti.Notification.createNotification({
+                'title' : 'HAW is awesome!',
+                'message' : 'Everybody should study something'
+              });
+              notification.show();
+            </code></pre>
+            <pre class="fragment"><code data-language="javascript">
+              var notification = window.webkitNotifications.createNotification('',
+                'HAW is awesome!',
+                'Everybody should study something'
+              });
+              notification.show();
+            </code></pre>
+          </section>
+
+          <section data-transition="linear">
+            <h1>Ti.Platform</h1>
+            <ul>
+              <li>openURL(url)</li>
+              <li>takeScreenshot(filename)</li>
+              <li>openApplication(path)</li>
+            </ul>
+          </section>
+
+          <section data-transition="linear">
+            <h1>Ti.Process</h1>
+            <ul>
+              <li>createPipe()</li>
+              <li>createProcess(args, env, pipe_in, pipe_out, pipe_err)</li>
+              <li>launch(commadn, args)</li>
+            </ul>
+          </section>
+
+          <section data-transition="linear">
+            <h1>Ti.Worker</h1>
+            <ul>
+                <li>createWorker(source)</li>
+                <li>worker.start()</li>
+                <li>worker.postMessage(data)</li>
+                <li>worker.terminate()</li>
+            </ul>
+          </section>
+
+          <section data-transition="linear">
+            <h1>Ti.UI</h1>
+            <ul>
+              <li>Clipboard</li>
+              <li>Menu</li>
+              <li>Tray</li>
+              <li>UserWindow</li>
+            </ul>
+          </section>
+        </section>
+
+        <section data-transition="linear">
+          <h1>Demo</h1>
+        </section>
+
+        <section data-transition="linear">
+          <section data-transition="linear" data-state="soothe">
+            <blockquote cite="http://en.wikiquote.org/wiki/Andrew_S._Tanenbaum">
+              The nice thing about standards is that you have so many to choose from.
+            </blockquote>
+            <p><small>Andrew S. Tanenbaum – Computer Networks, 2nd ed., p. 254</small></p>
+          </section>
+          <section data-transition="cube">
+            <h1><a href="http://appjs.org/" class="image no-roll">App.js</a></h1>
+            <p>since 2012</p>
+            <p>Current Release 0.0.20</p>
+            <p>Windows, Linux, MacOS</p>
+          </section>
+
+          <section data-transition="cube">
+            <h1><a href="https://github.com/rogerwang/node-webkit" class="image no-roll">node-webkit</a></h1>
+            <p>since 2011</p>
+            <p>Current Release 0.5.0</p>
+            <p>Windows, Linux, MacOS</p>
+            <p>LightTable</p>
+          </section>
+
+          <section data-transition="cube">
+            <h1><a href="http://www.adobe.com/products/air.html" class="image no-roll">Adobe Integrated Runtime</a></h1>
+            <p>since 2008</p>
+            <p>Current Release 3.7</p>
+            <p>Windows, MacOS, Android, iOS (linux support dropped as of AIR 2.7)</p>
+            <p>SAP, FedEX</p>
+          </section>
+
+          <section data-transition="cube">
+            <h1><a href="https://developer.mozilla.org/en-US/docs/XULRunner" class="image no-roll">XULrunner</a></h1>
+            <p>since 2006</p>
+            <p>Current Release 12.0</p>
+            <p>Windows, Linux, MacOS</p>
+            <p>ViViPOS, TomTom HOME 2</p>
+          </section>
+        </section>
+
+        <section>
+          <section data-transition="linear" data-state="soothe"><h1>Q&amp;A</h1></section>
+          <section data-transition="linear" data-state="alert"><h1>Don't use it!</h1></section>
+        </section>
+
+        <section data-state="finished">
+          <h1>Thanks</h1>
+          <p><a href="">ben.rexin.at/tidesdk-introduction</a></p>
+        </section>
+
+        <section>
+          <ul>
+            <li>tidesdk.org - API</li>
+            <li>de.wikipedia.org/wiki/Adobe_Integrated_Runtime - AIR History</li>
+            <li>de.wikipedia.org/wiki/XULRunner - xulrunner History</li>
+            <li>de.wikipedia.org/wiki/ICQ - ICQ History</li>
+            <li>backbonejs.org/#examples-battlefield - BattleField Free4Play using JavaScript</li>
+            <li>news.ycombinator.com/item?id=5359143 - SimCity using JavaScript</li>
+          </ul>
+        </section>
+      </section>
+    </section>
+    <script src="javascript/html5shiv.js"></script>
+    <script src="javascript/classList.js"></script>
+    <script src="javascript/reveal.js"></script>
+    <script src="javascript/rainbow.js"></script>
+    <script src="javascript/language/generic.js"></script>
+    <script src="javascript/language/python.js"></script>
+    <script src="javascript/language/php.js"></script>
+    <script src="javascript/language/ruby.js"></script>
+    <script src="javascript/init.js"></script>
+  </body>
+</html>
+
+
