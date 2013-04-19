@@ -7,11 +7,11 @@
   background-size: 100% auto; }
 
 .tidesdk {
-  background-image: url("/images/tidesdk-logo.png");
+  background-image: url("../../images/tidesdk-logo.png");
   width: 400px;
   height: 104px; }
 
 .titanium {
-  background-image: url("/images/titanium-logo.png");
+  background-image: url("../../images/titanium-logo.png");
   width: 400px;
   height: 81px; }

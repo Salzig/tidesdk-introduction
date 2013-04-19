@@ -9,14 +9,14 @@
 
 .tidesdk {
   @extend %logo;
-  background-image: url('/images/tidesdk-logo.png');
+  background-image: url('../../images/tidesdk-logo.png');
   width: 400px;
   height: 104px;
 }
 
 .titanium {
   @extend %logo;
-  background-image: url('/images/titanium-logo.png');
+  background-image: url('../../images/titanium-logo.png');
   width: 400px;
   height: 81px;
 }
