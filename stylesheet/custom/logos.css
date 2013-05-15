@@ -1,4 +1,4 @@
-.tidesdk, .titanium {
+.tidesdk, .appcelerator {
   display: inline-block;
   text-indent: 100%;
   white-space: nowrap;
@@ -11,7 +11,7 @@
   width: 400px;
   height: 104px; }
 
-.titanium {
-  background-image: url("../../images/titanium-logo.png");
+.appcelerator {
+  background-image: url("../../images/appcelerator-logo.png");
   width: 400px;
   height: 81px; }
